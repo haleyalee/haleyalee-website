@@ -2,16 +2,52 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Nav.css';
 
+const links = [
+  { 
+    id: 0,
+    name: 'portfolio',
+    to: '/',
+    className: 'nav-link',
+    active: true
+  },
+  {
+    id: 1,
+    name: 'experience',
+    to: '/experience',
+    className: 'nav-link',
+    active: false
+  },
+  {
+    id: 2,
+    name: 'about',
+    to: '/about',
+    className: 'nav-link',
+    active: false
+  }
+]
+
 function Nav() {
+
+  const handleActivePage = (path) => {
+    links.forEach((link) => {
+      link.active = (path === link.to);
+    })
+  }
+  
   return (
     <div>
       <nav className="navbar navbar-expand-sm d-flex justify-content-between">
-        <Link to="/" className="nav-link">haleyalee</Link>
+        <Link to="/" id="brand" className="nav-link">haleyalee</Link>
         <div>
           <ul className="navbar-nav">
-            <li className="nav-item"><Link to="/experience" className="nav-link">experience</Link></li>
-            <li className="nav-item"><Link to="/about" className="nav-link">about</Link></li>
-            <li className="nav-item"><a href="/" className="nav-link">resume</a></li>
+            { links.map((link) =>
+              <li key={link.id} onClick={() => handleActivePage(link.to)}>
+                <Link to={link.to} className={link.className} style={{padding: 0}}>
+                  <p style={{marginBottom: 0}}> {link.name} </p>
+                  { (link.active) && <div className="line" /> }
+                </Link>
+              </li>
+            ) }
           </ul>
         </div>
     </nav>

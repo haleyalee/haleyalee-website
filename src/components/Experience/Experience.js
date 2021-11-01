@@ -5,7 +5,7 @@ import './Experience.css'
 
 function Experience() {
   return (
-    <div>
+    <div className="container">
       <Nav />
     </div>
   )

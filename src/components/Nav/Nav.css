@@ -1,4 +1,26 @@
-#home {
-  text-decoration: none;
+@keyframes appearFromLeft {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: bottom left;
+  }
+}
+
+a.nav-link, 
+a.nav-link:focus, 
+a.nav-link:hover {
+  margin: 0 0.5rem;
   color: black;
+}
+
+a.nav-link:hover:not(#brand) {
+  border-bottom: 1px solid black;
+}
+
+.line {
+  border-bottom: 1px solid black;
+  animation-name: appearFromLeft;
+  animation-duration: 0.5s;
 }

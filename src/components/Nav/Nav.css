@@ -1,16 +1,14 @@
-@keyframes appearFromLeft {
-  0% {
-    transform: scaleX(0);
-  }
-  100% {
-    transform: scaleY(1);
-    /* transform-origin: bottom left; */
-  }
-}
-
 #brand {
+  font-family: "Rouge Script";
+  font-size: 2rem;
+  font-weight: bold;
   padding: 0;
   margin: 0;
+}
+
+#brand:hover {
+  transform: scale(1.05);
+  transition-delay: transform 1s;
 }
 
 a.nav-link, 

@@ -11137,6 +11137,16 @@
   "resolved" "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   "version" "0.0.6"
 
+"typeface-roboto@^1.1.13":
+  "integrity" "sha512-YXvbd3a1QTREoD+FJoEkl0VQNJoEjewR2H11IjVv4bp6ahuIcw0yyw/3udC4vJkHw3T3cUh85FTg8eWef3pSaw=="
+  "resolved" "https://registry.npmjs.org/typeface-roboto/-/typeface-roboto-1.1.13.tgz"
+  "version" "1.1.13"
+
+"typeface-rouge-script@^1.1.13":
+  "integrity" "sha512-8Q/3JHFHLe3VIGnD7SV1eMZSU1pxKu5dh1mxnfH8QKIQA+1tMv/+WuUr4/W+XJP6aoDJG3OemTIp7P6tzcekgA=="
+  "resolved" "https://registry.npmjs.org/typeface-rouge-script/-/typeface-rouge-script-1.1.13.tgz"
+  "version" "1.1.13"
+
 "unicode-canonical-property-names-ecmascript@^1.0.4":
   "integrity" "sha512-jDrNnXWHd4oHiTZnx/ZG7gtUTVp+gCcTTKr8L0HjlwphROEW3+Him+IpvC+xcJEFegapiMZyZe02CyuOnRmbnQ=="
   "resolved" "https://registry.npmjs.org/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-1.0.4.tgz"

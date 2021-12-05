@@ -42,9 +42,9 @@ function Nav() {
           <ul className="navbar-nav">
             { links.map((link) =>
               <li key={link.id} onClick={() => handleActivePage(link.to)}>
-                <Link to={link.to} className={link.className} style={{padding: 0}}>
-                  <p style={{marginBottom: 0}}> {link.name} </p>
-                  { (link.active) && <div className="line" /> }
+                <Link to={link.to} className={link.className} >
+                  <p className={(link.active) ? "line" : ""} style={{marginBottom: 0}}> {link.name} </p>
+                  {/* { (link.active) && <div className="line" /> } */}
                 </Link>
               </li>
             ) }

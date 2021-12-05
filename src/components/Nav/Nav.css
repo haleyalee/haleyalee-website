@@ -4,7 +4,7 @@
   }
   100% {
     transform: scaleY(1);
-    transform-origin: bottom left;
+    /* transform-origin: bottom left; */
   }
 }
 
@@ -16,16 +16,27 @@
 a.nav-link, 
 a.nav-link:focus, 
 a.nav-link:hover {
-  margin-left: 0.5rem;
+  padding: 0;
+  margin-left: 1rem;
   color: black;
 }
 
-a.nav-link:hover:not(#brand) {
-  border-bottom: 1px solid black;
+a.nav-link:not(#brand) p:not(.line):after {
+  display:block;
+  content: '';
+  border-bottom: 1px solid black;  
+  transform: scaleX(0);  
+  transform-origin:  0% 50%;
+  transition: transform 250ms ease-in;
+}
+
+a.nav-link:not(#brand) p:not(.line):hover::after { 
+  transform: scaleX(1); 
 }
 
 .line {
-  border-bottom: 1px solid black;
-  animation-name: appearFromLeft;
-  animation-duration: 0.5s;
+  display: block;
+  content: '';
+  border-bottom: 1px solid black; 
+  transform: scaleX(1);
 }

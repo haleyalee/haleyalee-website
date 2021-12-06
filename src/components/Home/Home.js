@@ -1,7 +1,14 @@
 import React from 'react';
+import Grid from '@material-ui/core/Grid';
+
 import Nav from '../Nav/Nav';
 import ProjectCard from '../ProjectCard/ProjectCard';
-import Grid from '@material-ui/core/Grid';
+
+import plantome from '../../images/cards/plantome.png';
+import max from "../../images/cards/max.gif";
+import cuathome from "../../images/cards/cuathome.png";
+import applefest from "../../images/cards/applefest.png";
+import curve from "../../images/cards/curve.gif";
 
 function Home() {
   return (
@@ -18,15 +25,41 @@ function Home() {
       </div>
 
       <Grid container spacing={4} id="projects">
-        <Grid item xs={12} sm={12} md={6} lg={6}>
-          <ProjectCard />
-        </Grid>
-        <Grid item xs={12} sm={12} md={6} lg={6}>
-          <ProjectCard />
-        </Grid>
-        <Grid item xs={12} sm={12} md={6} lg={6}>
-          <ProjectCard />
-        </Grid>
+
+        {/* Plantome */}
+        <ProjectCard 
+          image={plantome}
+          title={"plantome"}
+          details={"ecommerce website to buy plants"}
+        />
+
+        {/* Maxwell Lee Portfolio */}
+        <ProjectCard 
+          image={max}
+          title={"MaxLee"}
+          details={"personal website for Maxwell Lee"}
+        />
+
+        {/* CU@Home */}
+        <ProjectCard 
+          image={cuathome}
+          title={"CU@Home"}
+          details={"cornell off-campus housing mobile app design"}
+        />
+
+        {/* Ithaca Apple Harvest Festival */}
+        <ProjectCard 
+          image={applefest}
+          title={"AppleFest"}
+          details={"website for Ithaca AppleFest"}
+        />
+
+        {/* Curve */}
+        <ProjectCard 
+          image={curve}
+          title={"curve"}
+          details={"mobile contact tracing app design"}
+        />
       </Grid>
 
     </div>

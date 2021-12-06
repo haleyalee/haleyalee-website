@@ -2,6 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 
 import Nav from '../Nav/Nav';
+import Footer from '../Footer/Footer';
 import ProjectCard from '../ProjectCard/ProjectCard';
 
 import plantome from '../../images/cards/plantome.png';
@@ -62,6 +63,7 @@ function Home() {
         />
       </Grid>
 
+      <Footer />
     </div>
   )
 }

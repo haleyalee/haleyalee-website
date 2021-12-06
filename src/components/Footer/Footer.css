@@ -1,0 +1,31 @@
+footer {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  background: white;
+  z-index: 100;
+}
+
+footer > * {
+  padding: 1rem 0;
+}
+
+footer #socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer #socials img {
+  width: 24px;
+  height: 24px;
+  margin-right: 1.5rem;
+}
+
+footer #socials img:hover {
+  transform: scale(1.05);
+  transition: transform 0.1s;
+}
+
+footer p {
+  margin: 0;
+}

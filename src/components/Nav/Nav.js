@@ -5,7 +5,7 @@ import './Nav.css';
 const links = [
   { 
     id: 0,
-    name: 'portfolio',
+    name: 'projects',
     to: '/',
     className: 'nav-link',
     active: true

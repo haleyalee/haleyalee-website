@@ -1,8 +1,18 @@
 #quick-intro {
-  padding-top: 0.5rem;
-  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
 }
 
 #quick-intro h1 {
   font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+#quick-intro p {
+  font-size: 1.35rem;
+}
+
+#quick-intro p a {
+  color: var(--primary);
+  text-decoration: none;
 }

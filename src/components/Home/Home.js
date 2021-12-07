@@ -20,11 +20,11 @@ function Home() {
       <Nav />
 
       <div id="quick-intro">
-        <h1>Hello! I'm Haley</h1>
+        <h1>Hello! I'm Haley,</h1>
         <p>
-          I am a UX &amp; Front-End Developer who loves to transform idea into reality. I am an
-          Electrical &amp; Computer Engineering alumna from Cornell University and currently,
-          a front-end developer at Cognizant.
+          a UX &amp; Front-End Developer who loves to transform ideas into reality. I am an
+          Electrical &amp; Computer Engineering alumna at <a href="https://www.cornell.edu/">Cornell University</a> and 
+          currently, a front-end developer at <a href="https://www.cognizant.com/us/en/services/digital-experience">Cognizant</a>.
         </p>
       </div>
 
@@ -70,7 +70,7 @@ function Home() {
         <ProjectCard 
           image={applefest}
           title={"AppleFest"}
-          details={"website for Ithaca AppleFest"}
+          details={"[INFO1300] website for Ithaca AppleFest"}
           skills={["HTML/CSS", "user research", "web design"]}
           links={[
             { id:"applefest1", url:"https://pages.github.coecis.cornell.edu/info1300-2020fa/hal64-project2/index.html", action:"view website" }

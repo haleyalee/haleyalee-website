@@ -4,11 +4,15 @@
   font-weight: bold;
   padding: 0;
   margin: 0;
+
+  transform: scale(1);
+  transition: transform 0.5s;
 }
 
 #brand:hover {
   transform: scale(1.05);
-  transition-delay: transform 1s;
+  transition-delay: transform 0.5s;
+  color: var(--primary);
 }
 
 a.nav-link, 

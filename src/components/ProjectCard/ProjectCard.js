@@ -5,7 +5,7 @@ import Grid from '@material-ui/core/Grid';
 
 function Project(props) {
 
-  const {image, title, details} = props;
+  const {image, title, details, skills, links} = props;
   const [hovering, setHovering] = useState(false);
   
   const handleHover = () => {
@@ -21,12 +21,22 @@ function Project(props) {
 
         <img src={image} alt={title} />
 
-        { hovering && 
+        {/* { hovering &&  */}
         <div className="content">
           <h1>{title}</h1>
           <p>{details}</p>
+          <div className="skills">
+            { skills.map((skill) => 
+              <span>{skill}</span>
+            )}
+          </div>
+          <div className="buttons">
+            { links.map((link) => 
+              <a key={link.id} href={link.url} role="button">{link.action}</a>
+            )}
+          </div>
         </div>
-        }
+        {/* } */}
 
       </div>
     </Grid>

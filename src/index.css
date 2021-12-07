@@ -19,6 +19,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--off-white);
 }
 
 code {
@@ -27,5 +28,6 @@ code {
 }
 
 :root {
-  --primary: #fceea8;
+  --primary: #f8e386;
+  --off-white: #f8f8ff;
 }

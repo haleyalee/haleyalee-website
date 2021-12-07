@@ -35,7 +35,7 @@ function Home() {
           image={plantome}
           title={"plantome"}
           details={"ecommerce website to buy plants"}
-          skills={["react", "typescript", "bootstrap", "AWS", "webdesign"]}
+          skills={["react", "typescript", "bootstrap", "AWS", "web design"]}
           links={[
             { id:"plantome1", url:"", action:"view website" },
             { id:"plantome2", url:"", action:"view code" }
@@ -47,7 +47,7 @@ function Home() {
           image={max}
           title={"MaxLee"}
           details={"personal website for Maxwell Lee"}
-          skills={["HTML/CSS", "javascript", "webdesign"]}
+          skills={["HTML/CSS", "javascript", "web design"]}
           links={[
             { id:"maxlee1", url:"https://haleyalee.github.io/max-website/", action:"view website" }
           ]}
@@ -58,7 +58,7 @@ function Home() {
           image={cuathome}
           title={"CU@Home"}
           details={"cornell off-campus housing mobile app design"}
-          skills={["PM", "userresearch", "UI/UXdesign", "figma"]}
+          skills={["PM", "user research", "UI/UX design", "figma"]}
           links={[
             { id:"roommates1", url:"https://www.figma.com/proto/Nrhf1zCux8aVMcuL59sw9C/Roommates?node-id=161%3A5429&scaling=min-zoom", action:"view prototype" },
             { id:"roommates2", url:"https://www.youtube.com/watch?v=gwTsJTsXjFA", action:"watch demo" },
@@ -71,7 +71,7 @@ function Home() {
           image={applefest}
           title={"AppleFest"}
           details={"website for Ithaca AppleFest"}
-          skills={["HTML/CSS", "userresearch", "webdesign"]}
+          skills={["HTML/CSS", "user research", "web design"]}
           links={[
             { id:"applefest1", url:"https://pages.github.coecis.cornell.edu/info1300-2020fa/hal64-project2/index.html", action:"view website" }
           ]}
@@ -82,7 +82,7 @@ function Home() {
           image={curve}
           title={"curve"}
           details={"mobile contact tracing app design"}
-          skills={["reactnative", "UI/UXdesign", "figma"]}
+          skills={["react native", "UI/UX design", "figma"]}
           links={[
             { id:"curve1", url:"https://github.com/haleyalee/curve", action:"view code" },
             { id:"curve2", url:"https://www.youtube.com/watch?v=eCfADh68Hfk", action:"watch demo" }

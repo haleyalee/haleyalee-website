@@ -7,7 +7,9 @@
 
 .experience img {
   width: 300px;
-  height: 175px;
+  min-width: 100%;
+  height: auto;
+  min-height: 175px;
 }
 
 .experience .skills {
@@ -20,7 +22,6 @@
 }
 
 .company {
-  margin-left: 2rem;
 }
 
 .company .name {

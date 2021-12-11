@@ -4,7 +4,7 @@ import './Experience.css';
 
 function BrightBuilding() {
   return (
-    <div className="company">
+    <div className="company mx-3">
       <div className="name">
         <h2>Software Developer (Front-End) Intern</h2>
         <h4><a href="https://www.brightbuilding.us/">Bright Building</a> • March 2021 - June 2021</h4>

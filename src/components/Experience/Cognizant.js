@@ -2,7 +2,7 @@ import React from 'react'
 
 function Cognizant() {
   return (
-    <div className="company">
+    <div className="company mx-3">
       <div className="name">
         <h2>Front-End Developer</h2>
         <h4><a href="https://www.cognizant.com/us/en/services/digital-experience">Cognizant</a> • August 2021 - Present</h4>

@@ -1,0 +1,45 @@
+.experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.experience img {
+  width: 300px;
+  height: 175px;
+}
+
+.experience .skills {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.skill {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.company {
+  margin-left: 2rem;
+}
+
+.company .name {
+  margin-bottom: 1rem;
+}
+
+.company .name h2 {
+  font-size: 1.5rem;
+}
+
+.company .name h4 {
+  font-size: 1.1rem;
+}
+
+.company .name h4 a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.company .details {
+  margin-top: 1rem;
+}

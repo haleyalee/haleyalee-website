@@ -12,7 +12,7 @@ const links = [
   },
   {
     id: 1,
-    name: 'experience',
+    name: 'experiences',
     to: '/experience',
     className: 'nav-link',
     active: false

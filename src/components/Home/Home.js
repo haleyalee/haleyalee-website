@@ -22,7 +22,7 @@ function Home() {
       <div id="quick-intro">
         <h1>Hello! I'm Haley,</h1>
         <p>
-          a UX &amp; Front-End Developer who loves to transform ideas into reality. I am an
+          a <a href="#projects">UX &amp; Front-End Developer</a> who loves to transform ideas into reality. I am an
           Electrical &amp; Computer Engineering alumna at <a href="https://www.cornell.edu/">Cornell University</a> and 
           currently, a front-end developer at <a href="https://www.cognizant.com/us/en/services/digital-experience">Cognizant</a>.
         </p>
@@ -35,10 +35,9 @@ function Home() {
           image={plantome}
           title={"plantome"}
           details={"ecommerce website to buy plants"}
-          skills={["react", "typescript", "bootstrap", "AWS", "web design"]}
+          skills={["React", "TypeScript", "Bootstrap", "AWS", "Web Design"]}
           links={[
-            { id:"plantome1", url:"", action:"view website" },
-            { id:"plantome2", url:"", action:"view code" }
+            { id:"plantome1", url:"", action:"view website" }
           ]}
         />
 
@@ -47,7 +46,7 @@ function Home() {
           image={max}
           title={"MaxLee"}
           details={"personal website for Maxwell Lee"}
-          skills={["HTML/CSS", "javascript", "web design"]}
+          skills={["HTML/CSS", "JavaScript", "Web Design"]}
           links={[
             { id:"maxlee1", url:"https://haleyalee.github.io/max-website/", action:"view website" }
           ]}
@@ -58,7 +57,7 @@ function Home() {
           image={cuathome}
           title={"CU@Home"}
           details={"cornell off-campus housing mobile app design"}
-          skills={["PM", "user research", "UI/UX design", "figma"]}
+          skills={["PM", "User Research", "UI/UX Design", "Figma"]}
           links={[
             { id:"roommates1", url:"https://www.figma.com/proto/Nrhf1zCux8aVMcuL59sw9C/Roommates?node-id=161%3A5429&scaling=min-zoom", action:"view prototype" },
             { id:"roommates2", url:"https://www.youtube.com/watch?v=gwTsJTsXjFA", action:"watch demo" },
@@ -71,7 +70,7 @@ function Home() {
           image={applefest}
           title={"AppleFest"}
           details={"[INFO1300] website for Ithaca AppleFest"}
-          skills={["HTML/CSS", "user research", "web design"]}
+          skills={["HTML/CSS", "User Research", "Web Design"]}
           links={[
             { id:"applefest1", url:"https://pages.github.coecis.cornell.edu/info1300-2020fa/hal64-project2/index.html", action:"view website" }
           ]}
@@ -82,7 +81,7 @@ function Home() {
           image={curve}
           title={"curve"}
           details={"mobile contact tracing app design"}
-          skills={["react native", "UI/UX design", "figma"]}
+          skills={["React Native", "UI/UX Design", "Figma"]}
           links={[
             { id:"curve1", url:"https://github.com/haleyalee/curve", action:"view code" },
             { id:"curve2", url:"https://www.youtube.com/watch?v=eCfADh68Hfk", action:"watch demo" }

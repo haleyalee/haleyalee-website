@@ -47,11 +47,17 @@
   font-size: 1.15rem;
 }
 
+.project .skills {
+  width: 100%;
+  justify-content: center;
+}
+
 .project .skills,
 .project .buttons {
   display: flex;
   flex-direction: row;
   padding: 1rem;
+  text-align: center;
 }
 
 .project .skills span {

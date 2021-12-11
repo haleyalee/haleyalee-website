@@ -4,25 +4,22 @@ import './Nav.css';
 
 const links = [
   { 
-    id: 0,
     name: 'projects',
     to: '/',
     className: 'nav-link',
-    active: true
+    active: (window.location.pathname === '/')
   },
   {
-    id: 1,
     name: 'experiences',
     to: '/experience',
     className: 'nav-link',
-    active: false
+    active: (window.location.pathname === '/experience')
   },
   {
-    id: 2,
     name: 'about',
     to: '/about',
     className: 'nav-link',
-    active: false
+    active: (window.location.pathname === '/about')
   }
 ]
 
@@ -40,8 +37,8 @@ function Nav() {
         <Link to="/" id="brand" className="nav-link">haleyalee</Link>
         <div>
           <ul className="navbar-nav">
-            { links.map((link) =>
-              <li key={link.id} onClick={() => handleActivePage(link.to)}>
+            { links.map((link, idx) =>
+              <li key={idx} onClick={() => handleActivePage(link.to)}>
                 <Link to={link.to} className={link.className} >
                   <p className={(link.active) ? "line" : ""} style={{marginBottom: 0}}> {link.name} </p>
                   {/* { (link.active) && <div className="line" /> } */}

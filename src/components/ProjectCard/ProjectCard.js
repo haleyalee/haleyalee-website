@@ -3,7 +3,7 @@ import "./ProjectCard.css";
 
 import Grid from '@material-ui/core/Grid';
 
-function Project(props) {
+function ProjectCard(props) {
 
   const {image, title, details, skills, links} = props;
   const [hovering, setHovering] = useState(false);
@@ -26,8 +26,8 @@ function Project(props) {
           <h1>{title}</h1>
           <p>{details}</p>
           <div className="skills">
-            { skills.map((skill) => 
-              <span>{skill}</span>
+            { skills.map((skill, idx) => 
+              <span key={idx}>{skill}</span>
             )}
           </div>
           <div className="buttons">
@@ -43,4 +43,4 @@ function Project(props) {
   )
 }
 
-export default Project
+export default ProjectCard;

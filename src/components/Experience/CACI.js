@@ -2,7 +2,7 @@ import React from 'react'
 
 function CACI() {
   return (
-    <div className="company mx-3">
+    <div className="company mx-4">
       <div className="name">
         <h2>Digital Signal Processing Intern</h2>
         <h4><a href="https://www.cognizant.com/us/en/services/digital-experience">CACI</a> • May 2019 - August 2019</h4>

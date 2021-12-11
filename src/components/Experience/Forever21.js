@@ -2,7 +2,7 @@ import React from 'react'
 
 function Forever21() {
   return (
-    <div className="company mx-3">
+    <div className="company mx-4">
       <div className="name">
         <h2>Visual Design Associate</h2>
         <h4><a href="forever21.com">Forever 21</a> • June 2018 - August 2018</h4>

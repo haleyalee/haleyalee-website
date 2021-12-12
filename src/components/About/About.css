@@ -1,0 +1,74 @@
+
+.yellow {
+  color: var(--primary);
+}
+
+#about .image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+#about img {
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+}
+
+#about .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2rem 2rem 5rem 2rem;
+}
+
+#about .details h1 {
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+#about .details p {
+  font-size: 1.1rem;
+}
+
+#about .details a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+#about .details a:hover {
+  color: var(--primary);
+}
+
+#about #resume {
+  padding: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+#about #resume {
+  color: black;
+  /* background-color: var(--primary); */
+  border: 0.5px solid var(--primary);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+
+  transform: scale(1);
+  transition: transform 0.1s;
+}
+
+#about #resume:hover {
+  transform: scale(1.05);
+  transition: transform 0.1s;
+  color: white;
+  background-color: var(--primary);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}

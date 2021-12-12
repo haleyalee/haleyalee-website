@@ -21,30 +21,32 @@ function Experience() {
     <div id="experiences" className="container">
       <Nav />
 
-      <h1>Experiences</h1>
+      <div className="p-3 p-sm-0">
+        <h1>Experiences</h1>
 
-      {/* Cognizant */}
-      <ExperienceCard 
-        image={cognizant}
-        company={<Cognizant/>}
-      />
+        {/* Cognizant */}
+        <ExperienceCard 
+          image={cognizant}
+          company={<Cognizant/>}
+        />
 
-      {/* Bright Building */}
-      <ExperienceCard 
-        image={brightbuilding} 
-        company={<BrightBuilding />} />
+        {/* Bright Building */}
+        <ExperienceCard 
+          image={brightbuilding} 
+          company={<BrightBuilding />} />
 
-      {/* CACI */}
-      <ExperienceCard 
-        image={caci}
-        company={<CACI />}
-      />
+        {/* CACI */}
+        <ExperienceCard 
+          image={caci}
+          company={<CACI />}
+        />
 
-      {/* Forever 21 */}
-      <ExperienceCard 
-        image={xxi}
-        company={<Forever21 />}
-      />
+        {/* Forever 21 */}
+        <ExperienceCard 
+          image={xxi}
+          company={<Forever21 />}
+        />
+      </div>
 
       <Footer />
     </div>

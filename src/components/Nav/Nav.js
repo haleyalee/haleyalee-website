@@ -32,8 +32,8 @@ function Nav() {
   }
   
   return (
-    <div>
-      <nav className="navbar navbar-expand-sm d-flex justify-content-between">
+    <div className="p-3 p-sm-0">
+      <nav className="navbar navbar-expand d-flex justify-content-between">
         <Link to="/" id="brand" className="nav-link">haleyalee</Link>
         <div>
           <ul className="navbar-nav">

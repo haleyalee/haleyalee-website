@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0c908db8.chunk.css",
+    "main.js": "/static/js/main.62ec8268.chunk.js",
+    "main.js.map": "/static/js/main.62ec8268.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.70e35d4d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.70e35d4d.js.map",
+    "static/css/2.8db3b642.chunk.css": "/static/css/2.8db3b642.chunk.css",
+    "static/js/2.5b24ea21.chunk.js": "/static/js/2.5b24ea21.chunk.js",
+    "static/js/2.5b24ea21.chunk.js.map": "/static/js/2.5b24ea21.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.8db3b642.chunk.css.map": "/static/css/2.8db3b642.chunk.css.map",
+    "static/css/main.0c908db8.chunk.css.map": "/static/css/main.0c908db8.chunk.css.map",
+    "static/js/2.5b24ea21.chunk.js.LICENSE.txt": "/static/js/2.5b24ea21.chunk.js.LICENSE.txt",
+    "static/media/applefest.cf5ae144.png": "/static/media/applefest.cf5ae144.png",
+    "static/media/bb.1ea167e5.jpg": "/static/media/bb.1ea167e5.jpg",
+    "static/media/cognizant.5e516449.jpg": "/static/media/cognizant.5e516449.jpg",
+    "static/media/cuathome.71c6e5d1.png": "/static/media/cuathome.71c6e5d1.png",
+    "static/media/curve.d72ec15f.gif": "/static/media/curve.d72ec15f.gif",
+    "static/media/max.d1acdf5a.gif": "/static/media/max.d1acdf5a.gif",
+    "static/media/me.f496e3e3.jpg": "/static/media/me.f496e3e3.jpg",
+    "static/media/plantome.014ef539.png": "/static/media/plantome.014ef539.png",
+    "static/media/index.css": "/static/media/rouge-script-latin-400.f4e19acc.woff",
+    "static/media/xxi.8a7676a4.png": "/static/media/xxi.8a7676a4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70e35d4d.js",
+    "static/css/2.8db3b642.chunk.css",
+    "static/js/2.5b24ea21.chunk.js",
+    "static/css/main.0c908db8.chunk.css",
+    "static/js/main.62ec8268.chunk.js"
+  ]
+}

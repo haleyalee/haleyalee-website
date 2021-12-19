@@ -38,7 +38,7 @@ function Home() {
             details={"ecommerce website to buy plants"}
             skills={["React", "TypeScript", "Bootstrap", "AWS", "Web Design"]}
             links={[
-              { id:"plantome1", url:"", action:"view website" }
+              { id:"plantome1", url:"https://master.d24fxyynbl59c.amplifyapp.com/", action:"view website" }
             ]}
           />
 

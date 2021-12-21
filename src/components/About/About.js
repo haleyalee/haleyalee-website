@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer';
 
 import './About.css';
 
-import me from '../../images/me.jpg';
+import me from '../../images/me.webp';
 
 function About() {
   return (

@@ -8,11 +8,11 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 import "./Home.css";
 
 // project cards
-import plantome from '../../images/cards/plantome.png';
-import max from "../../images/cards/max.gif";
-import cuathome from "../../images/cards/cuathome.png";
-import applefest from "../../images/cards/applefest.png";
-import curve from "../../images/cards/curve.gif";
+import plantome from '../../images/cards/plantome.webp';
+import max from "../../images/cards/max.webp";
+import cuathome from "../../images/cards/cuathome.webp";
+import applefest from "../../images/cards/applefest.webp";
+import curve from "../../images/cards/curve.webp";
 
 function Home() {
   return (

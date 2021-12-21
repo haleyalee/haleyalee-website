@@ -9,10 +9,10 @@ import CACI from './CACI';
 import Forever21 from './Forever21';
 
 // import images
-import cognizant from '../../images/cards/cognizant.jpg';
-import brightbuilding from '../../images/cards/bb.jpg';
-import caci from '../../images/cards/caci.jpg';
-import xxi from '../../images/cards/xxi.png';
+import cognizant from '../../images/cards/cognizant.webp';
+import brightbuilding from '../../images/cards/bb.webp';
+import caci from '../../images/cards/caci.webp';
+import xxi from '../../images/cards/xxi.webp';
 
 import './Experience.css'
 

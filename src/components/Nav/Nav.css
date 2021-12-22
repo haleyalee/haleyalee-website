@@ -42,3 +42,10 @@ a.nav-link:not(#brand) p:not(.line):hover::after {
   border-bottom: 1px solid black; 
   transform: scaleX(1);
 }
+
+@media (max-width: 576px) { 
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+}

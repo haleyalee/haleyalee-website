@@ -26,6 +26,7 @@
 #about .details h1 {
   font-size: 2rem;
   color: var(--primary);
+  margin-bottom: 1.5rem;
 }
 
 #about .details p {
@@ -71,4 +72,10 @@
   color: white;
   background-color: var(--primary);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+@media (min-width: 768px) { 
+  #about .image {
+    height: 75%;
+  }
 }

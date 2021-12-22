@@ -74,6 +74,12 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
+@media (max-width: 576px) {
+  #about .details {
+    padding: 0 !important;
+  }
+}
+
 @media (min-width: 768px) { 
   #about .image {
     height: 75%;

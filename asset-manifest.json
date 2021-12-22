@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e129c33a.chunk.css",
-    "main.js": "/static/js/main.d178e469.chunk.js",
-    "main.js.map": "/static/js/main.d178e469.chunk.js.map",
+    "main.js": "/static/js/main.a6a48733.chunk.js",
+    "main.js.map": "/static/js/main.a6a48733.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.70e35d4d.js",
     "runtime-main.js.map": "/static/js/runtime-main.70e35d4d.js.map",
     "static/css/2.8db3b642.chunk.css": "/static/css/2.8db3b642.chunk.css",
@@ -19,7 +19,7 @@
     "static/media/cuathome.d54a006c.webp": "/static/media/cuathome.d54a006c.webp",
     "static/media/curve.64f4592c.webp": "/static/media/curve.64f4592c.webp",
     "static/media/max.7b957631.webp": "/static/media/max.7b957631.webp",
-    "static/media/me.93fd8bb5.webp": "/static/media/me.93fd8bb5.webp",
+    "static/media/me.c8628da3.webp": "/static/media/me.c8628da3.webp",
     "static/media/plantome.01dd2ef4.webp": "/static/media/plantome.01dd2ef4.webp",
     "static/media/index.css": "/static/media/rouge-script-latin-400.f4e19acc.woff",
     "static/media/xxi.dc9056c4.webp": "/static/media/xxi.dc9056c4.webp"
@@ -29,6 +29,6 @@
     "static/css/2.8db3b642.chunk.css",
     "static/js/2.5b24ea21.chunk.js",
     "static/css/main.e129c33a.chunk.css",
-    "static/js/main.d178e469.chunk.js"
+    "static/js/main.a6a48733.chunk.js"
   ]
 }

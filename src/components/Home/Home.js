@@ -62,7 +62,7 @@ function Home() {
             links={[
               { id:"roommates1", url:"https://www.figma.com/proto/Nrhf1zCux8aVMcuL59sw9C/Roommates?node-id=161%3A5429&scaling=min-zoom", action:"view prototype" },
               { id:"roommates2", url:"https://www.youtube.com/watch?v=gwTsJTsXjFA", action:"watch demo" },
-              { id:"roommates3", url:"", action:"read case study" }
+              { id:"roommates3", url:"https://haayle.medium.com/propel-roommates-sprint-01-user-research-5a2227a46269", action:"read case study" }
             ]}
           />
 

@@ -45,10 +45,11 @@
 
 .project .content p {
   font-size: 1.15rem;
+  text-align: center;
 }
 
 .project .skills {
-  width: 100%;
+  flex-flow: row wrap;
   justify-content: center;
 }
 
@@ -58,6 +59,8 @@
   flex-direction: row;
   padding: 1rem;
   text-align: center;
+  align-items: center;
+  /* justify-content: center; */
 }
 
 .project .skills span {
@@ -86,4 +89,26 @@
   color: white;
   background-color: var(--primary);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+@media (max-width: 576px) { 
+
+  .project {
+    height: 275px;
+  }
+
+  .project .content h1 {
+    font-size: 1.5rem;
+  }
+
+  .project .content p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .project .content .skills,
+  .project .content .buttons {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
 }
